@@ -290,7 +290,7 @@ main .sobre{
 
 
 .my_service{
-    padding: 60px;
+    padding: 20px;
     color: #fff;
 }
 
@@ -311,23 +311,31 @@ main .sobre{
     display: grid;
     gap: 30px;
     text-align: center;
-    width: 250px;
-    min-width: 12vw;
-    height: 300px;
+    width: 150px;
+    max-height: 300px;
+    min-height: 150px;
     background-color: #222;
-
 }
 
 .my_service ul li i {
     font-size: 2.7rem;
     color: #dc3545;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
 }
 
 .my_service ul li h3{
     color: #fff;
-    font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .my_service ul li p{
