@@ -303,7 +303,6 @@ main .sobre{
 }
 
 .my_service ul li{
-    cursor: pointer;
     position: relative;
     padding: 10px;
     border-radius: 6px;
@@ -433,7 +432,7 @@ main .sobre{
 }
 
 .experience_content ul {
-    color: #ff5d56;
+    color: #3e3d3d;
     gap: 10px;
     display: flex;
     cursor: pointer;
@@ -453,7 +452,7 @@ main .sobre{
 }
 
 .experience_content ul li.active {
-    color: #3e3d3d;
+    color: #ff5d56;
 }
 
 .resume_generica .experience_content div::before{
@@ -498,12 +497,12 @@ main .sobre{
 }
 
 .education_content ul li.active {
-    color: #3e3d3d;
+    color: #ff5d56;
 }
 
 
 .education_content ul {
-    color: #ff5d56;
+    color: #3e3d3d;
     gap: 10px;
     display: flex;
     cursor: pointer;
